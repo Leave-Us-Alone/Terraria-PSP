@@ -3,4 +3,4 @@
 We will coding/refactoring it sometimes when have free time and good mood for that.
 ## Info
 [Previous version](https://github.com/MasterMenSilver/PSP-Terraria)\
-PSPSDK: [last version (win-0.11.2r3)](https://sourceforge.net/projects/minpspw/files/SDK/)
+PSPSDK: [our version](https://github.com/Leave-Us-Alone/pspsdk)
