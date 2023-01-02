@@ -3,21 +3,19 @@ OBJS = src/callbacks.o \
 main.o
 
 INCDIR = 
-CFLAGS = -O3 -g -G0 -Wall
+CFLAGS = -O3 -g -G0 -Wall -D__PSP__
 CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
 ASFLAGS = $(CFLAGS)
 
 # PSP Stuff
 BUILD_PRX = 1
-PSP_FW_VERSION = 500
+PSP_FW_VERSION = 340
 PSP_LARGE_MEMORY = 1
 
 LIBDIR = 
 LDFLAGS = 
 
-MYLIBS = 
-STDLIBS = -lpsppower
-LIBS = $(STDLIBS) $(MYLIBS)
+LIBS = -lpge -lpsppower -lpspgum -lpspgu -lpng -lz -lm
 
 EXTRA_TARGETS = EBOOT.PBP
 PSP_EBOOT_TITLE = Terraria
