@@ -1,5 +1,5 @@
 TARGET = Terraria
-OBJS = src/callbacks.o \
+OBJS = src/terraria.o \
 main.o
 
 INCDIR = 
@@ -15,9 +15,9 @@ PSP_LARGE_MEMORY = 1
 LIBDIR = 
 LDFLAGS = 
 
+OSL = -losl -lpspgu -lpsphprm -lpsppower -lpspaudio
 MYLIBS = 
-STDLIBS = -lpsppower
-LIBS = $(STDLIBS) $(MYLIBS)
+LIBS = $(OSL) $(MYLIBS)
 
 EXTRA_TARGETS = EBOOT.PBP
 PSP_EBOOT_TITLE = Terraria
