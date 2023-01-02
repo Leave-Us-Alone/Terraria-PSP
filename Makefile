@@ -21,8 +21,8 @@ LIBS = $(STDLIBS) $(MYLIBS)
 
 EXTRA_TARGETS = EBOOT.PBP
 PSP_EBOOT_TITLE = Terraria
-#PSP_EBOOT_ICON = ICON0.PNG
-PSP_EBOOT_PIC1 = PIC1.png
+PSP_EBOOT_ICON = logo.png
+PSP_EBOOT_PIC1 = logo.png
 
 PSPSDK=$(shell psp-config --pspsdk-path)
 include $(PSPSDK)/lib/build.mak
