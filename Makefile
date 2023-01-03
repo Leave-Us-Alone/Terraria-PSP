@@ -15,7 +15,7 @@ PSP_LARGE_MEMORY = 1
 LIBDIR = 
 LDFLAGS = 
 
-LIBS = -lpge -lpsppower -lpspgum -lpspgu -lpng -lz -lm
+LIBS = -lpge -lpsppower -lpspgum -lpspgu -lpng -lz -lm -lfreetype -lpspwlan -lpspopenpsid
 
 EXTRA_TARGETS = EBOOT.PBP
 PSP_EBOOT_TITLE = Terraria
